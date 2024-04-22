@@ -18,8 +18,6 @@ source $ZSH/oh-my-zsh.sh
 
 export DBUS_SESSION_BUS_ADDRESS='unix:path='$DBUS_LAUNCHD_SESSION_BUS_SOCKET
 
-# export MANPATH="/usr/local/man:$MANPATH"
-
 alias vim="nvim"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
