@@ -4,11 +4,9 @@ return {
     config = function()
         local lualine = require("lualine")
         -- local lazy_status = require("lazy.status")
-        local lualine_theme = require("lualine.themes.base16")
-
         lualine.setup({
             options = {
-                theme = lualine_theme,
+                theme = "dracula-nvim",
             },
             --[[ sections = {
                 lualine_x = {

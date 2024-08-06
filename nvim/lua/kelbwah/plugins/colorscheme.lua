@@ -1,9 +1,9 @@
 return {
 	{
-		"blazkowolf/gruber-darker.nvim",
+		"Mofiqul/dracula.nvim",
 		priority = 1000,
 		config = function ()
-			vim.cmd.colorscheme("gruber-darker")
+			vim.cmd.colorscheme("dracula")
 		end,
 	}
 }
