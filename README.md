@@ -1,6 +1,6 @@
 # My Dotfiles
 
-<-How to install
+## How to install:
 
 - Higly recommend to use iTerm2 or whichever your preferred Terminal is.
 - If you have iterm, import the onedark.itermcolors theme
