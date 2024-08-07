@@ -16,6 +16,7 @@ return {
 				yaml = { "prettier" },
 				markdown = { "prettier" },
 				go = { "goimports", "gofmt", "gofumpt" },
+				templ = { "templ" },
 				python = { "isort", "black" },
 			},
 			format_on_save = {
