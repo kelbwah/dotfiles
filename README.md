@@ -8,3 +8,7 @@
   to whatever you prefer.
 - This config uses lazy and also Mason for lsp/linting/formatting. Use `:Mason` and install
   whichever lsp/linters/formatters you need and update them in their corresponding plugin files.
+
+## Resources
+
+- <[Josean Martinez Sketchybar Tutorial](https://www.youtube.com/watch?v=8W06wMNZmo8)
