@@ -1,33 +1,25 @@
-local opt = vim.opt -- for conciseness
+vim.cmd("let g:netrw_liststyle = 3")
 
--- cursor
-opt.guicursor = ""
+local opt = vim.opt
 
--- line numbers
-opt.relativenumber = false -- show relative line numbers
-opt.number = true -- shows absolute line number on cursor line (when relative number is on)
+opt.relativenumber = false 
+opt.number = true
 
 -- tabs & indentation
-opt.tabstop = 4 -- 4 spaces for tabs (prettier default)
-opt.shiftwidth = 4 -- 4 spaces for indent width
-opt.softtabstop = 4
+opt.tabstop = 2 -- 2 spaces for tabs (prettier default)
+opt.shiftwidth = 2 -- 2 spaces for indent width
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
-opt.smartindent = true
 
--- line wrapping
-opt.wrap = false -- disable line wrapping
+opt.wrap = false
 
 -- search settings
 opt.ignorecase = true -- ignore case when searching
 opt.smartcase = true -- if you include mixed case in your search, assumes you want case-sensitive
 
--- cursor line
-opt.cursorline = true -- highlight the current cursor line
+opt.cursorline = true
 
--- appearance
-
--- turn on termguicolors for nightfly colorscheme to work
+-- turn on termguicolors for tokyonight colorscheme to work
 -- (have to use iterm2 or any other true color terminal)
 opt.termguicolors = true
 opt.background = "dark" -- colorschemes that can be light or dark will be made dark
@@ -45,7 +37,3 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swapfile
 opt.swapfile = false
-opt.backup =  false
-opt.undofile = true
-opt.updatetime = 50
-opt.scrolloff = 8

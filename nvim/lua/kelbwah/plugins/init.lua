@@ -1,5 +1,4 @@
 return {
-	"nvim-telescope/telescope.nvim",
-	"nvim-lua/plenary.nvim",
-	"christoomey/vim-tmux-navigator",
+  "nvim-lua/plenary.nvim", -- lua functions that many plugins use
+  "christoomey/vim-tmux-navigator", -- tmux & split window navigation
 }

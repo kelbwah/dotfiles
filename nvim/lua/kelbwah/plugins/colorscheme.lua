@@ -1,12 +1,10 @@
 return {
-	"navarasu/onedark.nvim",
-	priority = 1000,
-	config = function()
-		local colorscheme = require("onedark")
-		colorscheme.setup({
-			style = "darker",
-		})
-		colorscheme.load()
-		vim.cmd.colorscheme("onedark")
-	end,
+  "navarasu/onedark.nvim",
+  priority = 1000, -- Ensure it loads early
+  config = function()
+    require("onedark").setup({
+      style = "darker", -- Options: 'darker', 'warmer', 'cool', 'deep', 'light'
+    })
+    require("onedark").load()
+  end,
 }
